@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <!-- Simple content-only project; compiles nothing -->
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <IsPackable>false</IsPackable>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Include all docs assets as content/non-compilable items -->
+    <None Include="**/*" Exclude="bin/**;obj/**;**/*.csproj" />
+  </ItemGroup>
+</Project>

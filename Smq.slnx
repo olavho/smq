@@ -5,6 +5,7 @@
     <File Path="LICENSE.txt" />
     <File Path="readme.md" />
   </Folder>
+  <Project Path="docs/Docs.csproj" />
   <Project Path="src/Smq.Common/Smq.Common.csproj" />
   <Project Path="src/Smq.Test.Common/Smq.Test.Common.csproj" Id="956098a3-6433-44c1-bc6c-ba3f3d7c8b1c" />
 </Solution>
