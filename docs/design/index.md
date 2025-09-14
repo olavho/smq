@@ -5,4 +5,5 @@ This folder contains design docs, requirements, and implementation plans.
 
 Structure:
 - [index.md](./index.md) — this page
+- [requirements.md](./requirements.md) — requirements
 
